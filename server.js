@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 // Put the SAME MongoDB URI used by MIYORA bot here, or set MONGO_URI on Heroku.
-const MONGO_URI = process.env.MONGO_URI || 'YOUR_MONGODB_URI';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://sasiyamd3_db_user:gJLM5AVLnE8qoa20@cluster0.q0olms4.mongodb.net/';
 const MONGO_DB = process.env.MONGO_DB || 'sakuradb-1';
 
 let client, db, telemetry;
